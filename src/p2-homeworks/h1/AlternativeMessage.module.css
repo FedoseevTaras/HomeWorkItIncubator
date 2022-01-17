@@ -1,0 +1,30 @@
+.item img {
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+
+}
+.item {
+    display: flex;
+    flex-direction: row;
+}
+.wrapper {
+    width: 25%;
+    padding: 15px;
+    background-color: #092103;
+    border-style: solid;
+    border-radius: 20px;
+}
+.name {
+    margin-bottom: 20px;
+    color: #634f7c;
+}
+.message {
+    margin-bottom: 20px;
+    color: #9cb1a2
+}
+.time {
+    text-align: right;
+    color: #274123;
+}
+
