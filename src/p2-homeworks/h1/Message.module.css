@@ -2,29 +2,41 @@
     width: 40px;
     height: 40px;
     margin-top: auto;
-
+    border-radius: 50%;
 }
+
 .item {
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
+
 .wrapper {
     width: 25%;
     padding: 15px;
-    background-color: #092103;
-    border-style: solid;
-    border-radius: 20px;
+    background-color: #fc9624;
+    /*border-style: solid;*/
+    border-radius: 20px 20px 20px 0px;
 }
+
 .name {
     margin-bottom: 20px;
     color: #634f7c;
 }
+
 .message {
     margin-bottom: 20px;
-    color: #9cb1a2
+    color: #292929
 }
+
 .time {
     text-align: right;
     color: #274123;
 }
 
+.angle {
+    width: 15px;
+    height: 15px;
+    margin-top: auto;
+    background: radial-gradient(circle at 0 0, rgba(0, 0, 0, 0) 15px, rgba(250, 150, 37, 1) 0)
+}

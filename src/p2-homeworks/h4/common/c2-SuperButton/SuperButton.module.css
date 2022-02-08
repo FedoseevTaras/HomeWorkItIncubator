@@ -1,7 +1,23 @@
 .default {
-
+    background-color: #fc9624;
+    border-radius: 4px;
+}
+.default:hover {
+    background-color: #fcd064;
 }
 
 .red {
+    background: #ff5880;
+}
+.red:hover {
     background: red;
+}
+.button {
+    border-radius: 4px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.button:disabled:hover {
+    cursor: auto;
+    background-color: #fc9624;
 }

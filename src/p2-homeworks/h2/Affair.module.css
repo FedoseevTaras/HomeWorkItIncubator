@@ -1,0 +1,12 @@
+.affair {
+    display: flex;
+
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.name {
+    width: 75px;
+}
+.priority {
+    width: 75px;
+}

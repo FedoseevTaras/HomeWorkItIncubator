@@ -1,3 +1,6 @@
+.title {
+    color: #fcd064;
+}
 .blue {
     border-bottom: 5px solid blue;
 }
@@ -10,4 +13,24 @@
 
 .testSpanError {
     color: blue;
+}
+.inputWrapper {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.buttonWrapper {
+    margin-top: 20px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.checkboxWrapper {
+    margin-top: 20px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }

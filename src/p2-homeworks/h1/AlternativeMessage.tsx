@@ -7,6 +7,7 @@ const AlternativeMessage: React.FC<MassagePropsType> = ({avatar,name,message,tim
     return (
         <div className={styles.item}>
             <img src={avatar} alt="" />
+            <div className={styles.angle}></div>
             <div className = {styles.wrapper}>
                 <div className={styles.name}>
                     {name}

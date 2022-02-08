@@ -1,7 +1,31 @@
-.someClass {
+.greeting {
+    display: grid;
+    grid-template-areas:
+    'i bc'
+    'e e' ;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 10fr;
+    margin-top: 20px;
+}
 
+.someClass {
+    border-radius: 5px;
+    grid-area: i;
 }
 
 .error {
-    border: 1px solid red;
+    border: 5px solid red;
+    background-color: #f0d8d7;
+    border-radius: 5px;
+}
+.wrapperButtonCount {
+    grid-area: bc;
+    margin-left: 20px;
+}
+.errorMessage {
+    color: red;
+    grid-area: e;
+}
+.countUsers {
+ margin-left: 2px;
 }
