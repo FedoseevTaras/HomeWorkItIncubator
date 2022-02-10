@@ -29,3 +29,6 @@
 .countUsers {
  margin-left: 2px;
 }
+.wrapperButtonCount span {
+    margin-left: 20px;
+}
