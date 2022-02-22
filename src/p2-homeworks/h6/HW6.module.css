@@ -1,0 +1,12 @@
+.title {
+    color: #fcd064;
+}
+.wrapper {
+    padding-top: 20px;
+}
+.buttonWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+}
